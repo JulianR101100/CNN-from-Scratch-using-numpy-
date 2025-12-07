@@ -1,0 +1,86 @@
+# Standard .gitignore for Python / Data Science / ML projects
+
+# Personal preferences (images, etc.)
+.idea/
+*.png
+*.jpg
+GEMINI.md
+Cuda_Test.py
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# Data, models, logs
+data/
+datasets/
+models/
+checkpoints/
+logs/
+tensorboard/
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.pb
+*.npz
+*.pkl
+*.sav
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and environment
+.env
+.env.*
+secrets.json
+credentials/
+*.pem
+*.key
+
+# Coverage and reports
+.coverage
+htmlcov/
+.coverage.*
+
+# Other
+*.orig
+*.bak
+*.swp
