@@ -2,6 +2,7 @@
 
 # Personal preferences (images, etc.)
 .idea/
+.idea
 *.png
 *.jpg
 GEMINI.md
